@@ -20,7 +20,7 @@ app.listen(3000);
 
 app.use(function(req, res, next) {
     res.status(404).send('Very Fatal Error (code: ' + res.statusCode + '), everything gone very bad');
-    if(res.statusCode === 404) {
-        console.log('Very Fatal Error (code: ' + res.statusCode + '), everything gone very bad');
-    }
+    //if(res.statusCode === 404) {
+    //    console.log('Very Fatal Error (code: ' + res.statusCode + '), everything gone very bad');
+    //}
 });
